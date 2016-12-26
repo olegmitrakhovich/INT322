@@ -4,7 +4,7 @@
 $firstname = $_POST['firstname'];
 $lastname  = $_POST['lastname'];
 
-$link = mysqli_connect("db-mysql.zenit", "int322_163d06", "W6dvjw12345&*", "int322_163d06")
+$link = mysqli_connect("db-mysql.zenit", "int322_163d06", "PASSWORD", "int322_163d06")
 
                                                 or die('Could not connect: ' . mysqli_error($link));
 
