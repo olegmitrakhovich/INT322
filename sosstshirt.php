@@ -61,7 +61,7 @@ if ($_POST) {
 		}		
 		  if($ordernumber > 0){
                   
-		  $link = mysqli_connect("db-mysql.zenit", "int322_163d06", "W6dvjw12345&*", "int322_163d06")
+		  $link = mysqli_connect("db-mysql.zenit", "int322_163d06", "PASSWORD", "int322_163d06")
 
                   or die('Could not connect: ' . mysqli_error($link));
 
@@ -108,7 +108,7 @@ if (!$datavalid || !$_POST){
 <?php
 $id = $_GET['id'];
 
-$con = mysqli_connect("db-mysql.zenit", "int322_163d06", "W6dvjw12345&*", "int322_163d06")
+$con = mysqli_connect("db-mysql.zenit", "int322_163d06", "PASSWORD", "int322_163d06")
 				or die('Could not connect: ' . mysqli_error($con));
 
 //$result = mysqli_query($con, "SELECT * FROM ORDERS2 where id = 165");
