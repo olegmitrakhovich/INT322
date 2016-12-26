@@ -9,7 +9,7 @@ class DBlink{
 	public 
 	
 	function __construct($database_name) {
-	$link = mysqli_connect("db-mysql.zenit", "int322_163d06", "W6dvjw12345&*") or die ('error');
+	$link = mysqli_connect("db-mysql.zenit", "int322_163d06", "PASSWORD") or die ('error');
 	mysqli_select_db($link, $database_name) or die ('error 1');
 	$this -> link = $link;
 	}
