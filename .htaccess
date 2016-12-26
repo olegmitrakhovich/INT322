@@ -1,0 +1,7 @@
+AuthUserFile /home/int322_163d06/password/.htpasswd
+
+AuthName "username's protected files"
+AuthType Basic
+
+
+require valid-user
