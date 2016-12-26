@@ -7,7 +7,7 @@ $user = $_POST['username'];
 $password = $_POST['password'];
 
 
-                $cxn = mysqli_connect("db-mysql.zenit", "int322_163d06", "W6dvjw12345&*", "int322_163d06");
+                $cxn = mysqli_connect("db-mysql.zenit", "int322_163d06", "PASSWORD", "int322_163d06");
 
                 if (mysqli_connect_errno()){
                         echo "Connection Failed: " . mysqli_connect_error();
