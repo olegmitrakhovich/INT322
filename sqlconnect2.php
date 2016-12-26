@@ -1,5 +1,5 @@
 <?php
-  $cxn = mysqli_connect("db-mysql.zenit", "int322_163d06", "W6dvjw12345&*", "int322_163d06");
+  $cxn = mysqli_connect("db-mysql.zenit", "int322_163d06", "PASSWORD", "int322_163d06");
 
 if (mysqli_connect_errno()){
 	echo "Conecction Failed: " . mysqli_connect_error();
