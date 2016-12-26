@@ -1,7 +1,7 @@
 <?php
 $host = "db-mysql";
 $user = "int322_163d06";
-$pass = "W6dvjw12345&*";
+$pass = "PASSWORD";
 $db = "int322_163d06";
 
 $ID = $_GET['id'];
