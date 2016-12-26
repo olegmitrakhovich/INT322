@@ -37,7 +37,7 @@ if ($_POST) {
 	if($valid){
 
 
-		$cxn = mysqli_connect("db-mysql.zenit", "int322_163d06", "W6dvjw12345&*", "int322_163d06");
+		$cxn = mysqli_connect("db-mysql.zenit", "int322_163d06", "PASSWORD", "int322_163d06");
 
 		if (mysqli_connect_errno()){
 			echo "Connection Failed: " . mysqli_connect_error();
@@ -60,7 +60,7 @@ if ($_POST) {
 				
 				$message = "Username: $user Password Hint: " . $numberofrows['passwordHint'];
 
-				$header = "Reply to: oomitrakhovich@myseneca.ca";
+				$header = "Reply to: oomitch@myseneca.ca";
 
 				mail($sendto, $subject, $message, $header) or die ('mail sent failed');
 				
